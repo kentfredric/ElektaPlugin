@@ -1,4 +1,4 @@
 ElektaPlugin
 ============
 
-Elektaville Plugin
+DSPhat's Elektaville plugin!
