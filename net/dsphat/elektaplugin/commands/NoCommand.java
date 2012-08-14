@@ -1,7 +1,7 @@
 package net.dsphat.elektaplugin.commands;
 
 import net.dsphat.elektaplugin.request.Request;
-import org.bukkit.command.Command;.
+import org.bukkit.command.Command;
 import org.bukkit.entity.Player;
 
 @BaseCommand.Name("no")

@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 @BaseCommand.Name("setnick")
 public class SetNickCommand extends BaseCommand {
 	@Override
-	public boolean onCommandAll(CommandSender, commandSender, Command command, String s, String[] strings) throws Exception {
+	public boolean onCommandAll(CommandSender commandSender, Command command, String s, String[] strings) throws Exception {
 		if(strings.length < 1 || strings.length > 2) return false;
 		
 		Player ply = getPlayerSingle(strings[0]);

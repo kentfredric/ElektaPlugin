@@ -44,7 +44,7 @@ public abstract class BaseCommand implements CommandExecutor {
 			return true;
 		}
 		
-		public boolean onCommandPlayer(Player player, Command command, String s. String[] strings) throws Exception {
+		public boolean onCommandPlayer(Player player, Command command, String s, String[] strings) throws Exception {
 			sendResponse(player, "Sorry, this command can not be used by a player!", ChatColor.DARK_RED);
 			return true;
 		}
